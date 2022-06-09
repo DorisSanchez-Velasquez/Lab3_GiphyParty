@@ -1,0 +1,67 @@
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bg color 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+/*COLOR CHANGING BACKGROUND ANIMATION*/
+@keyframes bgcolor
+{
+    0%{background-color: #a83632}
+    30%{background-color: #073882}
+    60%{background-color: #4d0782}
+    90%{background-color: #a1089e}
+    100%{background-color: #16630a}
+}
+
+/*BUTTON DESIGN FOR HIDING SHOW ME MORE BUTTON*/
+.hidden
+{
+    display: none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*HEADER TITLE AREA DESIGN*/
+h1
+{
+    background-color: #000000;
+    padding: 0.5em;
+    font-size: 50px;
+    letter-spacing:5px;
+    margin-top:0px;
+}
+
+h1, #form-area
+{
+    display: flex;
+    justify-content: center;
+}
+
+/*FIELD INPUT AND BUTTON DESIGNS*/
+input
+{
+    padding:10px;
+    margin-right:10px;
+    font-size:24px;
+    font-family: Helvetica, Helvetica, sans-serif;
+}
+
+button
+{
+    background-color: #157bd4;
+    color: #FFFFFF;
+    font-family: century gothic, Helvetica, sans-serif;
+    margin-right:10px;
+    padding:10px;
+    font-size:24px;
+    border-radius:10px;
+    border: 3px solid #FFFFFF;
+}
